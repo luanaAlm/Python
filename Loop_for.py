@@ -11,3 +11,9 @@ for letra in nome:
     print(letra)
 
 # for 2 iterando sobre uma lista
+for numero in lista:
+    print(numero)
+
+#for 3 interando sobre o renge
+for numero in range(1, 10):
+    print(numero)
