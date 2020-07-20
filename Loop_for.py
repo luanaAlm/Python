@@ -37,4 +37,4 @@ for n in range(1, qtd+1):
 """
 print("imprimir todas as letras em uma so linha")
 for letra in nome:
-    pr int(letra, end='')
+    print(letra, end='')
