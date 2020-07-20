@@ -13,6 +13,8 @@ lista3 = []
 lista4 = list(range(11))
 
 lista4 = list(range(11))
+
+"""
 print('Encontrar um numero dentro de uma lista')
 if num in lista4:
     print(f'tem o numero {num}')
@@ -28,3 +30,44 @@ print('------')
 print('Contar as ocorrencias')
 print(lista1.count(1))
 print(lista2.count('a'))
+
+print('------')
+print('Adicionar elementos na lista')
+print(lista1)
+lista1.append(42) #append() so adiciona uma argumento
+print('Adicionar ',lista1)
+lista1.append([8,5,6,3]) #append([]) adiciona uma lista dentro de uma outra lista
+print('lista dentro de outra')
+
+print('------')
+print('condição')
+if[8,5,6,3]  in lista1:
+    print(lista1)
+    print('encontrei os valores na lista')
+else:
+    print('Não encontrei os valores na lista')
+
+print('------')
+print('Adicionar elementos na lista como elemento unico')
+lista1.extend([123, 44, 67])
+print(lista1)
+"""
+"""
+print('------')
+print('inserir elemento de acordo com o indice')
+lista1.insert(2, 100)
+print(lista1)
+
+print('------')
+print('somando duas listas')
+lista6 = lista1 + lista2
+print('Com soma',lista6)
+lista1.extend(lista2)
+print('Com extend',lista1)
+
+print('------')
+print('Reverter a lista')
+lista2.reverse()
+print('com reverse',lista2)
+print('com [::-1]',lista1[::-1])
+"""
