@@ -85,3 +85,23 @@ print('Remover algo da lista')
 print(lista2)
 lista2.pop()
 print(lista2)
+
+print('------')
+print('Zerar a lista')
+print(lista2.clear())
+
+print('------')
+print('separar palavras por espaço')
+curso = 'programação em Python: Essencial'
+print(curso)
+curso = curso.split()
+print(curso)
+
+print('------')
+print('converter lista em string')
+texto = ['programação', 'em', 'Python:', 'Essencial']
+print(texto)
+
+print('join, pegar string e tranforma em texto')
+curso = ' '.join(texto)
+print('1',curso)
