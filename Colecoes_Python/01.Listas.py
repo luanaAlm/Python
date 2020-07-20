@@ -71,3 +71,17 @@ lista2.reverse()
 print('com reverse',lista2)
 print('com [::-1]',lista1[::-1])
 """
+
+print('Copiar uma lista')
+lista7 = lista2.copy()
+print(lista7)
+
+print('------')
+print('tamanho da lista')
+print(len(lista2))
+
+print('------')
+print('Remover algo da lista')
+print(lista2)
+lista2.pop()
+print(lista2)
