@@ -3,6 +3,7 @@ tuple
 
 É parecido com listas porem sao representadas por parenteses, elas sao imutaveis. Sua operação gera uma nova tupla
 """
+
 print('tuple 1')
 tupla1 = (1,2,3,4,5,6)
 print(type(tupla1))
@@ -48,3 +49,25 @@ print('tamanho ',len(tupla1))
 
 print('------')
 print('tuple 8 - Concatenação de tuplas')
+tupla7 = (1,2,3)
+tupla8 = (4,5,6)
+tupla8 = tupla7 + tupla8
+print(tupla8)
+
+print('------')
+print('Verifica elemento dentro de uma tulpa')
+print(3 in tupla1)
+
+print('------')
+print('Interando sobre uma tupla')
+for n in tupla1:
+    print(n)
+print('--')
+for indice, valor in enumerate(tupla1):
+    print(indice,valor)
+
+tupla9 = ('a','b','c','d','a','e')
+print(tupla9.count('a'))
+escola1 = tuple('Feliz Aniversário')
+print(escola1)
+print(escola1.count('i'))
