@@ -55,5 +55,9 @@ print(receita)
 novo_dado = {'mai':500}
 receita.update(novo_dado)
 print(receita)
-
-
+print('Formna 1 de atualizar ')
+receita['mai'] = 550
+print(receita)
+print('Formna 2 de atualizar ')
+receita.update({'mai': 600})
+print(receita)
