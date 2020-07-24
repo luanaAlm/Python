@@ -6,7 +6,7 @@ Dicionarios são representados por chaves
 print(type({}))
 """
 
-"""
+
 print('Forma 1')
 paises = {'br': 'Brasil', 'eua': 'Estados Unidos', 'py': 'Paraguai'}
 
@@ -47,7 +47,7 @@ localidades = {
 }
 print(type(localidades))
 print(localidades)
-"""
+
 receita = {'jan' : 100, 'fev' : 120, 'mar' : 300}
 print(receita)
 receita['abr'] = 350
@@ -61,3 +61,64 @@ print(receita)
 print('Formna 2 de atualizar ')
 receita.update({'mai': 600})
 print(receita)
+
+print('--- Remover dados do dicionario ---')
+print('Forma 1')
+ret = receita.pop('mar')
+print(receita)
+print(ret)
+print('Forma 2')
+del receita['fev']
+print(receita)
+
+print('--- Carrinho - LIST---')
+carrinho = []
+produto1 = ['playstation 4', 1, 2300.00]
+produto2 = ['God of War 4', 1, 150.00]
+
+carrinho.append(produto1)
+carrinho.append(produto2)
+print(carrinho)
+print(type(carrinho))
+
+print('\n--- Carrinho - TUPLE---')
+
+produto1 = ('playstation 4', 1, 2300.00)
+produto2 = ('God of War 4', 1, 150.00)
+carrinho = (produto1, produto2)
+
+print(carrinho)
+print(type(carrinho))
+
+print('\n--- Carrinho - DICIONARIO---')
+
+carrinho = []
+produto1 = {'nome': 'playstation 4', 'quantidade': 1, 'valor': 2300.00}
+produto2 = {'nome': 'God of War 4', 'quantidade': 1, 'valor': 150.00}
+carrinho.append(produto1)
+carrinho.append(produto2)
+
+print(carrinho)
+print(type(carrinho))
+
+d = dict(a=1, b=2, c=3)
+print(d)
+print(type(d))
+
+print('\nCopiando um diconario para o outro')
+print('\ndeep copy')
+novo = d.copy()
+print(novo)
+print('novo valor')
+novo['d'] = 4
+print(novo)
+print('\nShallow copy')
+novo = d
+print(novo)
+novo['d'] = 5
+print(d)
+print(novo)
+
+print('\nlimpeza')
+d.clear()
+print(d)
