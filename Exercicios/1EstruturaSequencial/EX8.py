@@ -6,6 +6,4 @@ soma = 0
 valor = float(input('Quanto você ganha por hora? '))
 hora = int(input('Número de horas trabalhadas no mês? '))
 soma = valor * hora
-print('Ganho: {}'.format(soma))
-
-"https://wiki.python.org.br/EstruturaSequencial"
+print('Seu ganho é: {}'.format(soma))
