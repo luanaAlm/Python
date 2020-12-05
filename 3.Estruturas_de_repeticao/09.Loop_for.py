@@ -7,7 +7,7 @@ nome ='Geek University'
 lista =[1, 3, 5, 7, 9]
 numeros = range (1,10)
 
-
+"""
 for letra in nome:
     print(letra)
 
@@ -42,3 +42,4 @@ for letra in nome:
 for _ in range(3):
     for num in range(1,11):
         print('\U0001F60D' * num)
+"""
