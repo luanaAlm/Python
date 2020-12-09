@@ -1,6 +1,6 @@
 """
 São funçõoes sem nome ou seja função anônimas
-
+"""
 
 def funcao(x):
     return 3 * x + 1
@@ -28,7 +28,7 @@ print(amar())
 print(uma(6))
 print(duas(5, 7))
 print(tres(3, 6, 9))
-"""
+
 #Outros exxemplos
 nomes = ['Isaac Asivon', 'Marcos Vinicios', 'Gorete V. Lacerda', 'Lazaro Sousa', 'Maria O. C. Vilani',
            'Julioc Cesar', 'H. G. Cruz', 'Reinaldo Maraes', 'Daniel Marques', 'Heitor Enzo']
