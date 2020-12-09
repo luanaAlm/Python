@@ -1,7 +1,8 @@
 """
 tuple
 
-É parecido com listas porem sao representadas por parenteses, elas sao imutaveis. Sua operação gera uma nova tupla
+É parecido com listas porem sao representadas por parenteses, elas sao imutaveis.
+Sua operação gera uma nova tupla
 """
 
 print('tuple 1')
