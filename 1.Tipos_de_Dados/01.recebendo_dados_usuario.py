@@ -5,7 +5,7 @@ Recebendo dados do usuário
 print('qual o seu nome?')
 nome = input()
 
-print('seja berm-vindo {0}' .format(nome))
-print('qual sua idade?')
+print(f'Seja bem-vindo {format(nome)}')
+print('Qual sua idade?')
 idade = input()
-print('tenho {0}' .format(idade))
+print(f'Tenho {format(idade)} anos')
