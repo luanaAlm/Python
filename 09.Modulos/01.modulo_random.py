@@ -4,7 +4,6 @@ São úteis para reutilização de códigos
 Módulo Random -> Possui várias funçoes para geração de números  pseudo-aleatório
 """
 
-"""
 #forma 1 - importando todo o modulo
 #ficará na memória
 import random
@@ -32,7 +31,7 @@ print('\n')
 from random import choice
 jogador = ['pedra', 'papel', 'tesoura']
 print(choice(jogador))    
-"""
+
 print('\n')
 #shuffle() -> Embaralha números interáveis
 from random import shuffle
